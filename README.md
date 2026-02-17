@@ -151,22 +151,24 @@ These two values form the price range displayed in the final price master.
 ```
 Mobile-Phone-Price-Master-Builder/
 │
-├── amazon_price_scraper.py         # Amazon India price scraper
-├── flipkart_price_scraper.py       # Flipkart price scraper
-├── Launch_Date_scraper.py          # GSMArena launch date scraper
+├── Data/                                        # Scraper output files
+│   ├── Amazon Scraper Price master.xlsx         # Amazon scraper results
+│   ├── Flipkart Scraper Price master.xlsx       # Flipkart scraper results
+│   └── Launch Date Scraper Price master.xlsx    # GSMArena launch date results
 │
-├── requirements.txt                # Python dependencies
-├── README.md                       # This file
+├── Log/                                         # Log files from scraping runs
 │
-├── chromedriver-win64/             # ChromeDriver binary (download separately)
-│   └── chromedriver.exe
+├── Src/                                         # All source code
+│   ├── debug_screenshots/                       # Auto-created: Flipkart error screenshots
+│   ├── debug_screenshots_amazon/                # Auto-created: Amazon error screenshots
+│   ├── debug_screenshots_gsm/                   # Auto-created: GSMArena error screenshots
+│   ├── amazon_price_scraper.py                  # Amazon India price scraper
+│   ├── flipkart_price_scraper.py                # Flipkart price scraper
+│   └── Launch Date scraper.py                   # GSMArena launch date scraper
 │
-├── data/
-│   └── master_input.xlsx           # Input: your master model list (user-provided)
-│
-├── debug_screenshots_amazon/       # Auto-created: Amazon error screenshots
-├── debug_screenshots/              # Auto-created: Flipkart error screenshots
-└── debug_screenshots_gsm/          # Auto-created: GSMArena error screenshots
+├── .gitignore
+├── README.md                                    # This file
+└── requirements.txt                             # Python dependencies
 ```
 
 > **Note:** ChromeDriver is not included in this repository. Download the version that matches your installed Chrome browser from [chromedriver.chromium.org](https://chromedriver.chromium.org/downloads) and update the `CHROMEDRIVER_PATH` constant in each script.
