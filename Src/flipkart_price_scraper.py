@@ -1,8 +1,6 @@
 # Flipkart Product Price Scraper
 # A personal project for automated price monitoring on Flipkart
-# Author: Personal Portfolio Project
 # Description: Scrapes product prices from Flipkart search results with dynamic class detection
-#
 # FEATURES:
 # - Multiple scraping modes: Fresh Start, Resume, Error List
 # - Separate extraction of selling prices and MRPs
