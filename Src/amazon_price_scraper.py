@@ -1,8 +1,6 @@
-# Amazon Product Price Scraper - FIXED VERSION
+# Amazon Product Price Scraper 
 # A personal project for automated price monitoring on Amazon
-# Author: Personal Portfolio Project
 # Description: Scrapes product prices from Amazon search results with advanced filtering and variant detection
-#
 # FEATURES:
 # - Multiple scraping modes: Fresh Start, Resume
 # - Separate extraction of selling prices and MRPs (Maximum Retail Price)
