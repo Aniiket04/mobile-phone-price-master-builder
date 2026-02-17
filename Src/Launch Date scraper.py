@@ -3,8 +3,6 @@
 gsmarena_launch_date_scraper.py
 
 Personal-portfolio style GSM Arena launch-date scraper.
-Matches the structure, logging, retry, and save behavior used
-in the provided Amazon/Flipkart scrapers but only queries GSMArena.
 
 Features:
 - Fresh / Resume / Error-list modes
